@@ -1,17 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// components 
+import Navbar from './components/navbar';
+import Sidebar from './components/sidebar';
+
+
+//stylesheets
+
+import "./stylesheets/navbar.css";
+import "./stylesheets/sidebar.css";
+
+
+//
+
+
+import watermark from "./assets/pegasus_water.png"
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const watermark_css={
+
+}
+
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <img  src ={watermark} id="watermark"/> */}
+   <Navbar first={"search"} second={"products"} third ={"order"} fourth={"Customers"} />
+   <Sidebar/>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
