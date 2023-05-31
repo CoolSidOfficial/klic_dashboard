@@ -11,10 +11,7 @@ return (
        <li><a href="">{props.first}</a> </li>
        <li><a href="">{props.second}</a></li>
        <li><a href="">{props.third}</a></li>
-       <li><a href="">{props.fourth}</a></li>
-       <li><a href="">{props.fifth}</a></li>
-       <li><a href="">{props.sixth}</a></li>
-       
+
 
     </ul>
     <ul class="right-nav">

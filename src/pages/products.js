@@ -1,0 +1,9 @@
+import React from 'react'
+
+function Products() {
+  return (
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis praesentium unde molestias minus molestiae error, perferendis nulla iusto, inventore provident aliquid minima eum id sint repellendus incidunt quasi ad nesciunt atque, sit autem totam. Odit ex, iste molestiae numquam, officia odio eaque, corporis laborum veniam quia libero doloribus! Beatae voluptate sint veniam ipsam facilis illum vero laboriosam atque amet veritatis nam facere deleniti, omnis molestias temporibus eveniet ratione consequuntur repellat exercitationem aliquid, nobis excepturi? Nisi obcaecati error quidem perferendis velit dignissimos officiis in porro sint magnam ipsam, pariatur soluta saepe numquam nulla, illum quos libero nobis quod voluptatibus cupiditate id culpa. Porro ea impedit error distinctio. Aliquam error labore distinctio consequuntur, dolorum asperiores explicabo suscipit earum exercitationem illo, eveniet repellendus unde consectetur amet illum cumque dolores reprehenderit incidunt reiciendis accusantium molestias veniam perspiciatis. Et, aperiam saepe nostrum, culpa impedit nobis porro fugiat incidunt voluptate necessitatibus praesentium possimus soluta itaque earum id expedita rerum neque, quis voluptates. Tempore mollitia esse officiis harum ullam repudiandae dolores, omnis ad debitis maiores reprehenderit architecto atque, adipisci, dignissimos odio beatae aliquid? Fugiat facere laborum labore porro, natus itaque voluptate ipsa atque magni possimus rem mollitia tenetur? Ipsum assumenda, blanditiis dolore ex dolorum placeat nihil!
+    </div>
+  )
+}
+export default Products

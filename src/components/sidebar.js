@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 import logo from "../assets/pegasus_logo.png"; 
 
 // import 
@@ -37,18 +38,19 @@ function Sidebar(props){
            <div className="side-items">
            
             <FontAwesomeIcon className="side-icons" icon={faFileLines} />
-            <span>Products</span> 
+            <NavLink  className= "side_links"to="/products">Products</NavLink>
             </div>
        
            <div className="side-items">
+           <NavLink  className= "side_links"to="/vendors">
             <FontAwesomeIcon className="side-icons" icon={faUserGroup} />      
-            <span>Vendors</span> </div>
+            <span>Vendors</span> </NavLink></div>
           <div className="side-items"> <FontAwesomeIcon className="side-icons" icon={faPeopleGroup} />
-           <span>Inventory</span>
+          <NavLink  className= "side_links"to="/inventory">Inventory</NavLink>
             </div>
            <div className="side-items">
            <FontAwesomeIcon className="side-icons" icon={faShield} />
-            <span>Sellers</span>
+           <NavLink  className= "side_links"to="/sellers">Sellers</NavLink>
              </div>
            
            
